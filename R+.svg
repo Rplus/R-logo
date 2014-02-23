@@ -64,7 +64,7 @@
   <g id="all-card">
     <!-- bgc -->
     <g id="bgi" style="font-family: 'webfont-consolas';">
-      <text x="-115" y="310" style="fill: #ddd; font-size: 800px; font-weight: bold;">{</text>
+      <text x="-105" y="310" style="fill: #ddd; font-size: 800px; font-weight: bold;">{</text>
       <text x="540" y="425" style="fill: #888; font-weight: bold; font-size: 150px;">}</text>
     </g>
 
@@ -75,19 +75,19 @@
         transform="translate(0,400)"
         style="font: normal 36px 'webfont-consolas'; letter-spacing: -2px;">
 
-        <a xlink:href="mailto:rplus.tw@gmail.com" transform="translate(337,-8)">
+        <a xlink:href="mailto:rplus.tw@gmail.com" transform="translate(347,-8)">
           <rect width="110" height="40" style="fill: rgba(0,0,0,0)" />
           <use xlink:href="#icon-gmail" transform="translate(10,0)" />
         </a>
 
-        <a xlink:href="http://github.com/Rplus" target="_top" transform="translate(150,-10)">
+        <a xlink:href="http://github.com/Rplus" target="_top" transform="translate(160,-10)">
           <rect width="50" height="40" style="fill: rgba(255,255,255,0)" />
           <use xlink:href="#icon-github" />
         </a>
 
         <text x="50%" y="20">
           <a xlink:href="http://github.com/Rplus"><!--
-          --><tspan dx="-20">R</tspan><!--
+          --><tspan dx="-10">R</tspan><!--
           --><tspan dx="0">p</tspan><!--
           --><tspan dx="-2">l</tspan><!--
           --><tspan dx="-1">u</tspan><!--
