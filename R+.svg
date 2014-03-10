@@ -7,8 +7,8 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-  width="720"
-  height="480"
+  width="100%"
+  height="100%"
   viewBox="0 0 720 480"
   version="1.1"
   sodipodi:docname="R+.2.svg">
@@ -65,31 +65,33 @@
     <text x="540" y="450" style="fill: #888; font-weight: bold; font-size: 190px;">}</text>
   </g>
 
-  <svg id="info"
-    style="font: normal 32px 'webfont-consolas'; letter-spacing: -1px; text-anchor: middle;">
+  <g id="info"
+    style="font: normal 32px 'webfont-consolas'; letter-spacing: -1px;">
     <text x="50%" y="430">
       <a xlink:href="https://github.com/Rplus" target="_blank">
-        <tspan dx="-0.5em">github: Rplus</tspan>
+        <tspan dx="-3.7em">github: Rplus</tspan>
       </a>
     </text>
 
     <text x="50%" y="430">
       <a xlink:href="mailto:rplus.tw@gmail.com">
-        <tspan dx="0.5em" dy="1em"> gmail: Rplus.tw</tspan>
+        <tspan dx="-3.2em" dy="1em"> gmail: Rplus.tw</tspan>
       </a>
     </text>
-  </svg>
+  </g>
 
-  <svg id="title" style="font: bold 40px 'webfont-consolas'; letter-spacing: 0px; text-anchor: middle;">
-    <text x="50%" y="370">[&lt;HTML&gt;, CSS, JS]</text>
-  </svg>
+  <g id="icon-title">
+    <text x="50%" y="370" id="title" style="font: bold 40px 'webfont-consolas'; letter-spacing: 0px;">
+      <tspan dx="-4.5em">[&lt;HTML&gt;, CSS, JS]</tspan>
+    </text>
 
-  <svg
-    x="250" y="5"
-    id="icon">
-    <use xlink:href="#icon-R"    style="fill:#ff0000;filter:url(#drop-shadow)" />
-    <use xlink:href="#icon-plus" style="fill:#d50000;filter:url(#drop-shadow2)" />
-  </svg>
+    <g
+      transform="translate(250,5)"
+      id="icon">
+      <use xlink:href="#icon-R"    style="fill:#ff0000;filter:url(#drop-shadow)" />
+      <use xlink:href="#icon-plus" style="fill:#d50000;filter:url(#drop-shadow2)" />
+    </g>
+  </g>
 
 <style>
 
@@ -100,8 +102,28 @@
   }
 
   svg {
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     max-width: 100%;
   }
+
+  @media (max-width: 399px) {
+    svg {
+      -ms-transform: scale(1.4) translateY(20px);
+      -webkit-transform: scale(1.4) translateY(20px);
+      transform: scale(1.4) translateY(20px);
+    }
+  }
+
+  @media (max-width: 299px) {
+    svg {
+      -ms-transform: scale(1.8) translateY(20px);
+      -webkit-transform: scale(1.8) translateY(20px);
+      transform: scale(1.8) translateY(20px);
+    }
+  }
+
   @media (min-width: 300px) {
     #title {
       display: block;
