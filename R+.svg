@@ -56,7 +56,7 @@
 
   <g id="icon-title">
     <text x="50%" y="370" id="title" style="font: bold 40px 'webfont-consolas'; letter-spacing: 0px;">
-      <tspan dx="-4.5em">[&lt;HTML&gt;, CSS, JS]</tspan>
+      <tspan dx="-5em">[&lt;HTML&gt;, CSS, JS]</tspan>
     </text>
 
     <g
